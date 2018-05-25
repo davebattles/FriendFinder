@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Developer Finder</title>
+		<link rel="icon" href="assets/favico/hambug.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<div id="headerCard" class="card-panel blue-grey darken-1">
+						<a href="/"><h1 class="">Developer Finder<blockquote class="white-text"></blockquote></h1></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+						<div id="info" class="card-panel teal-lighten-3">
+							<div class="row">
+									<div class="input-field white col s12">
+									<input id="name" type="text" placeholder="Name(required)" class="form-control">
+							</div>
+							</div>
+								<div class="row">
+									<div class="input-field white col s12">
+									<input id="photo" type="text" placeholder="Link to Photo(required)" class="form-control">
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="row">
+						<div class="input-field col s12"><p style="padding-top: 50px;">
+							<select id= "question1" class="browser-default">
+								<option value="" disabled selected> Choose your option</option>
+								<option value="1">1 (Stongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select></p>
+						<label class="indigo-text">You've been giving a complex task to code. You don't hesitate and start immediately.</p></label>
+						</div>
+						</div>
+						<div class="row">
+						<div class="input-field col s12"> <p style="padding-top: 50px;">
+						<select id="question2" class="browser-default">
+								<option value="" disabled selected> Choose your option</option>
+								<option value="1">1 (Stongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select></p>
+						<label class="indigo-text"> You leave comments to explain anything that may seem ambiguous.</label>
+						</div>
+						</div>
+						<div class="row">
+						<div class="input-field col s12"><p style="padding-top: 50px;">
+						<select id="question3" class="browser-default">
+								<option value="" disabled selected> Choose your option</option>
+								<option value="1">1 (Stongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select></p>
+						<label class="indigo-text"> You believe the best programming languages make the best use of system resources</label></div>
+						</div>
+						<div class="row">
+						<div class="input-field col s12"><p style="padding-top: 50px;">
+						<select id="question4" class="browser-default">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Stongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select></p>
+						<label id= "questionStyle" class="indigo-text"> You believe the optimal team for a complex task is 1 person.</label>
+						</div>
+						</div>
+						<div class="row">
+						<div class="input-field col s12"><p style="padding-top: 50px;">
+						<select id="question5" class="browser-default">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Stongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>	</p>
+						<label class="indigo-text"> You believe white space should be used everywhere.</label>
+						</div>
+						</div>
+						<div class="row">
+						<div class="input-field col s12"><p style="padding-top: 50px;">
+						<select id="question6" class="browser-default">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Stongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select></p>
+						<label class="indigo-text"> When you program you prefer to shut the door to the rest of the world.</label>
+						</div>
+						</div>
+						<div class="row">
+						<div class="input-field col s12"><p style="padding-top: 50px;">
+						<select id="question7" class="browser-default">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Stongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select></p>
+						<label class="indigo-text"> You think planning should be over 75% of your project</label>
+						</div>
+						</div>
+						<div class="row"> 
+						<div class="input-field col s12"><p style="padding-top: 50px;">
+						<select id="question8" class="browser-default">
+							<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Stongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select></p>
+						<label class="indigo-text"> You think dependencies weigh you down and would rather code everything from scratch</label>
+						</div>
+						</div>
+						<div class="row"> 
+						<div class="input-field col s12"><p style="padding-top: 50px;">
+						<select id="question9" class="browser-default">
+							<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Stongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select></p>
+						<label class="indigo-text"> You find it easy to relax in your work and times flys</label>
+						</div>
+						</div>
+						<div class="row"> 
+						<div class="input-field col s12"><p style="padding-top: 50px;">
+						<select id="question9" class="browser-default">
+							<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Stongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select></p>
+						<label class="indigo-text">You believe collaboration often doesn't result in significant innovations, so you would rather study individually.</label>
+						</div>
+						</div>
+						<button id="submit" class="waves-effect waves-light amber accent-4 black-text btn-large" type="submit" name="submit">Submit
+								<i class="material-icons right"> send</i>
+						</button>
+						<div id="modalResult" class="modal">
+							<div class="modal-content">
+							<h4> Developer Finder </h4>
+							<h5 id="matchName">match name will be here</h5>
+							<img id="matchPhoto" src="" alt="">
+						</div>
+						<div class="modal-footer">
+							<a href="#" class="modal-action modal-close waves-effect btn-flat">Close</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
