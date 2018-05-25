@@ -12,8 +12,9 @@ body{
 	margin: 25px 0;
 }
 label.indigo-text {
-	background-color: hsla(0, 0%, 100%, 0.473);
+	background-color: hsla(0, 0%, 100%, 0.685);
 	padding: 15px;
+	color: #000 !important;
 }
 h1 {
 	color: rgb(0, 0, 0) !important;
