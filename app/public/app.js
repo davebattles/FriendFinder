@@ -44,15 +44,15 @@ $("#submit").on("click", function (event) {
       $("#name").val("");
       $("#photo").val("");
       $("#question1").val(""),
-        $("#question2").val(""),
-        $("#question3").val(""),
-        $("#question4").val(""),
-        $("#question5").val(""),
-        $("#question6").val(""),
-        $("#question7").val(""),
-        $("#question8").val(""),
-        $("#question9").val(""),
-        $("#question10").val("")
+      $("#question2").val(""),
+      $("#question3").val(""),
+      $("#question4").val(""),
+      $("#question5").val(""),
+      $("#question6").val(""),
+      $("#question7").val(""),
+      $("#question8").val(""),
+      $("#question9").val(""),
+      $("#question10").val("")
     });
   } else {
     alert("Please fill out all fields before submitting!");
