@@ -1,4 +1,4 @@
-#Developer Finder
+##Developer Finder
 
 ![Developer Finder](https://davebattles.github.io/FriendFinder/markdown.png)
 
